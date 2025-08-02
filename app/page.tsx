@@ -11,6 +11,8 @@ import dynamic from "next/dynamic";
 import Reviews from "./reviews-section/ReviewGrid";
 const Work = dynamic(() => import("./work-section/Work"));
 const About = dynamic(() => import("./about-section/About"));
+const Experience = dynamic(() => import("./experience-section/Experience"));
+const Skills = dynamic(() => import("./skills-section/Skills"));
 const Blog = dynamic(() => import("./blog-section/BlogGrid"));
 const Contact = dynamic(() => import("./contact-section/Contact"));
 const Footer = dynamic(() => import("./footer/Footer"));
@@ -41,9 +43,10 @@ export default function Home() {
       {/* <ScrollerMotion> */}
       <main className="flex flex-col items-center justify-center">
         <Hero />
-        <Work />
-        <Reviews/>
         <About />
+        <Experience />
+        <Skills />
+        <Work />
         <Blog />
         <Contact />
         <Footer />

@@ -1,0 +1,8 @@
+<svg width="100" height="100" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="100" height="100" rx="20" fill="#1a1f2e"/>
+  <circle cx="50" cy="35" r="15" fill="#e4ded7"/>
+  <rect x="25" y="55" width="50" height="6" rx="3" fill="#e4ded7"/>
+  <rect x="30" y="65" width="40" height="4" rx="2" fill="#95a3b3"/>
+  <rect x="35" y="73" width="30" height="4" rx="2" fill="#95a3b3"/>
+  <text x="50" y="90" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" font-weight="bold" fill="#e4ded7">SNS</text>
+</svg>

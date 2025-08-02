@@ -15,7 +15,7 @@ export const metadata: Metadata = {
   description:
     "Frontend Engineer and Web Designer, currently at Kora. Focused on interfaces and experiences, working remotely from Lagos, Nigeria.",
   generator: "Next.js",
-  applicationName: "Victor Williams",
+  applicationName: "Akil A",
   keywords: [
     "freelance",
     "developer",
@@ -40,8 +40,8 @@ export const metadata: Metadata = {
     title: "AkilLabs",
     description:
       "Frontend Engineer and Web Designer, currently at Kora. Focused on interfaces and experiences, working remotely from Lagos, Nigeria.",
-    url: "https://www.victorwilliams.me/",
-    siteName: "www.victorwilliams.me",
+    url: "https://www.AkilLabs.me/",
+    siteName: "www.AkilLabs.me",
     images: [
       {
         url: "https://user-images.githubusercontent.com/84178696/228620835-e3cc5c9b-72fc-4f54-a628-407ef7b650f5.png",
@@ -58,7 +58,7 @@ export const metadata: Metadata = {
     title: "AkilLabs",
     description:
       "Frontend Engineer and Web Designer, currently at Kora. Focused on interfaces and experiences, working remotely from Lagos, Nigeria.",
-    creator: "victorwill__",
+    creator: "Akil A",
     creatorId: "1243720976552144897",
     images: [
       "https://user-images.githubusercontent.com/84178696/228620835-e3cc5c9b-72fc-4f54-a628-407ef7b650f5.png",

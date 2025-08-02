@@ -5,7 +5,21 @@ const nextConfig = {
   },
   optimizeFonts: false,
   images: {
-    domains: ["user-images.githubusercontent.com", "cdn.hashnode.com", "github.com"],
+    domains: [
+      "user-images.githubusercontent.com", 
+      "cdn.hashnode.com", 
+      "github.com",
+      "cdn.jsdelivr.net",
+      "streamlit.io",
+      "huggingface.co",
+      "python.langchain.com",
+      "avatars.githubusercontent.com",
+      "ollama.com",
+      "www.vectorlogo.zone",
+      "assets.vercel.com",
+      "upload.wikimedia.org",
+      "storage.googleapis.com"
+    ],
   },
   fontLoaders: [
     {
