@@ -1,0 +1,7 @@
+<svg width="100" height="100" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="100" height="100" rx="20" fill="#0f172a"/>
+  <polygon points="30,25 70,25 60,40 40,40" fill="#e4ded7"/>
+  <polygon points="40,40 60,40 70,55 30,55" fill="#95a3b3"/>
+  <polygon points="30,55 70,55 60,70 40,70" fill="#e4ded7"/>
+  <text x="50" y="85" text-anchor="middle" font-family="Arial, sans-serif" font-size="7" font-weight="bold" fill="#e4ded7">NEXTRUN</text>
+</svg>
