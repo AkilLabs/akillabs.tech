@@ -40,7 +40,7 @@ export const experiences: ExperienceProps[] = [
         "Worked on MCP server integration to streamline multi-platform communication and automation",
          ],
     technologies: ["Databricks", "MCP Server", "Openai", "CrewAI"],
-    type: "Internship",
+    type: "internship",
     logo: "/experinence/nextrun_digital.png",
     website: "https://nextrun.io"
   }
