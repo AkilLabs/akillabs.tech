@@ -14,36 +14,34 @@ export type ExperienceProps = {
 export const experiences: ExperienceProps[] = [
   {
     id: 1,
-    company: "SNS Innovation Hub",
+    company: "SNS Institutions",
     position: "Junior Software Intern",
-    duration: "2024 - Present",
-    location: "Remote",
+    duration: "October 2024 - Present",
+    location: "Onsite",
     description: [
-      "Developed real-time AI-powered applications for clients using Python, LangChain, and CrewAI",
-      "Built intelligent systems integrating Gemini AI for enhanced user experiences",
-      "Collaborated with cross-functional teams to deliver scalable software solutions",
-      "Implemented full-stack features spanning frontend design systems to backend orchestration"
-    ],
-    technologies: ["Python", "LangChain", "CrewAI", "Gemini AI", "Django", "React"],
+  "Collaborated with cross-functional teams to build and deliver scalable, AI-driven software solutions",
+  "Worked on real-time client projects powered by Generative AI and Agentic AI using Python, LangChain, and CrewAI",
+  "Developed intelligent systems integrating Gemini AI to enhance user interaction and experience",
+],
+    technologies: ["Python", "Javascript", "CrewAI", "Gemini AI", "Django", "React", "MongoDB"],
     type: "internship",
-    logo: "/companies/sns-innovation-hub.svg",
-    website: "https://snsinnovationhub.com"
+    logo: "/experinence/sns_innovation_hub.png",
+    website: "https://snsihub.ai/"
   },
   {
     id: 2,
     company: "NextRun Digital",
-    position: "Full-Stack Developer",
-    duration: "2023 - 2024",
+    position: "Academic Intern",
+    duration: "June 2025 - Present",
     location: "Remote",
     description: [
-      "Designed and developed responsive web applications using modern frontend frameworks",
-      "Implemented backend APIs and database management systems",
-      "Optimized application performance and user experience across multiple platforms",
-      "Collaborated with designers and product managers to deliver high-quality digital solutions"
-    ],
-    technologies: ["React", "Next.js", "TypeScript", "Node.js", "MongoDB", "Tailwind CSS"],
-    type: "freelance",
-    logo: "/companies/nextrun-digital.svg",
-    website: "https://nextrundigital.com"
+        "Implemented backend APIs and managed databases to support data-driven applications",
+        "Built and optimized data workflows using Databricks for scalable data processing and analytics",
+        "Worked on MCP server integration to streamline multi-platform communication and automation",
+         ],
+    technologies: ["Databricks", "MCP Server", "Openai", "CrewAI"],
+    type: "Internship",
+    logo: "/experinence/nextrun_digital.png",
+    website: "https://nextrun.io"
   }
 ];

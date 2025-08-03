@@ -18,9 +18,9 @@ const NavBar = () => {
   };
 
   return (
-    <nav className="fixed bottom-10 left-0 right-0 z-50 my-0  mx-auto  flex w-[380px] items-center justify-center gap-1 rounded-lg bg-[#07070a]/90 px-1 py-1 text-[#e4ded7] backdrop-blur-md sm:w-[460px] md:p-2 lg:w-[480px]">
+    <nav className="fixed bottom-10 left-0 right-0 z-50 my-0  mx-auto  flex w-[380px] items-center justify-center gap-1 rounded-lg bg-transparent px-1 py-1 text-[#e4ded7] backdrop-blur-md sm:w-[480px] md:p-2 lg:w-[500px]">
       <Link
-        href="https://drive.google.com/file/d/1Mmwl-FRGPm5QVe3AjtukJr_Jpc366Ear/view"
+        href="https://drive.google.com/file/d/1bWXJrPe3ZUIVoQTRV9KcFCnFp64UaRK6/view?usp=sharing"
         target="_blank"
         className="flex"
         aria-label="Open my resume"
@@ -33,6 +33,8 @@ const NavBar = () => {
         />
       </Link>
 
+      
+
       <Link
         href="#home"
         data-blobity-magnetic="false"
@@ -41,16 +43,6 @@ const NavBar = () => {
       >
         <h4 className="rounded py-2 px-2 sm:px-4 text-[12px] sm:text-[14px] md:py-1 md:px-4">
           Home
-        </h4>
-      </Link>
-      <Link
-        href="#work"
-        data-blobity-magnetic="false"
-        onClick={handleScroll}
-        aria-label="Scroll to Work Section"
-      >
-        <h4 className="rounded py-2 px-2 sm:px-4 text-[12px] sm:text-[14px] md:py-1 md:px-4">
-          Work
         </h4>
       </Link>
 
@@ -65,6 +57,30 @@ const NavBar = () => {
         </h4>
       </Link>
 
+
+      <Link
+        href="#work"
+        data-blobity-magnetic="false"
+        onClick={handleScroll}
+        aria-label="Scroll to Work Section"
+      >
+        <h4 className="rounded py-2 px-2 sm:px-4 text-[12px] sm:text-[14px] md:py-1 md:px-4">
+          Projects
+        </h4>
+      </Link>
+
+      <Link
+        href="#certifications"
+        data-blobity-magnetic="false"
+        onClick={handleScroll}
+        aria-label="Scroll to Certifications Section"
+      >
+        <h4 className="rounded py-2 px-2 sm:px-4 text-[12px] sm:text-[14px] md:py-1 md:px-4">
+          Certifications
+        </h4>
+      </Link>
+
+      
       <Link
         href="#skills"
         data-blobity-magnetic="false"
@@ -76,16 +92,7 @@ const NavBar = () => {
         </h4>
       </Link>
 
-      <Link
-        href="#contact"
-        data-blobity-magnetic="false"
-        onClick={handleScroll}
-        aria-label="Scroll to Contact Section"
-      >
-        <h4 className="rounded py-2 px-2 sm:px-4 text-[12px] sm:text-[14px] md:py-1 md:px-4">
-          Contact
-        </h4>
-      </Link>
+      
     </nav>
   );
 };

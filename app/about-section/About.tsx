@@ -6,13 +6,13 @@ import AnimatedTitle from "../animations/AnimatedTitle";
 const About = () => {
   return (
     <section
-      className="relative z-10 w-full items-center justify-center overflow-hidden bg-[#0E1016] bg-cover bg-center pt-20  md:pt-24 lg:pt-28 "
+      className="relative z-10 w-full items-center justify-center overflow-hidden bg-[#0E1016] bg-cover bg-center pt-20  md:pt-24 lg:pt-28"
       id="about"
     >
       <div className="mx-auto flex w-[90%] flex-col items-center justify-center lg:max-w-[1220px]">
         {/* Hero Headline */}
         <AnimatedTitle
-          text="I Build with Code, Create with AI, and Design for Impact."
+          text="Prompt. Build. Deploy. Repeat — with AI at the Core."
           className="mb-12 text-left text-[36px] font-extrabold leading-[1] tracking-tight text-[#e4ded7] sm:text-[45px] md:mb-20 md:text-[60px] lg:text-[72px]"
           wordSpace="mr-[14px]"
           charSpace="mr-[0.001em]"
@@ -21,13 +21,11 @@ const About = () => {
         {/* Intro Section */}
         <div className="flex flex-col gap-10 lg:flex-row lg:gap-20">
           <div className="flex w-full flex-col gap-6 text-[18px] font-medium leading-relaxed tracking-wide text-[#e4ded7] md:text-[20px] lg:max-w-[65%] lg:text-[24px]">
-            <AnimatedBody text="Hey, I’m Akil — a GenAI-focused Full-Stack Developer who crafts real-world applications by blending frontend precision with backend intelligence. I believe in building tools that not only work but *feel* human." />
+            <AnimatedBody text="Hey, I’m Akil — a Full-Stack Developer building human-centric AI tools at the intersection of design, intelligence, and usability. My core focus is GenAI integration in real-world products that scale." />
 
-            <AnimatedBody text="I currently work as a Junior Software Intern at SNS InnovationHub, where I build real-time AI-powered apps for clients using Python, LangChain, CrewAI, and Gemini. My stack spans from frontend design systems to backend orchestration." />
+            <AnimatedBody text="I’m currently working as a Junior Software Intern at SNS InnovationHub, where I deliver client-ready applications powered by LangChain, CrewAI, Gemini 1.5 Flash, and Python. I’ve also deployed local models with Ollama and designed UI systems with Figma and Tailwind." />
 
-            <AnimatedBody text="Some of my proudest work includes 'InterviewIQ' — an AI interviewer that reads your resume and asks HR-style questions — and a stock prediction system that uses real-time scraping and GenAI to verify financial news." />
-
-            <AnimatedBody text="Outside code, I'm leading student tech communities, sharing knowledge, and constantly refining my systems — from automating GitHub dashboards to making custom Chrome extensions for daily productivity." />
+            <AnimatedBody text="On the side, I lead and contribute to student tech communities, automate my workflows with custom Chrome extensions, and build experimental projects that bridge productivity with intelligent systems." />
           </div>
 
           {/* Skills Summary */}
@@ -39,9 +37,9 @@ const About = () => {
                 wordSpace="mr-[0.2em]"
                 charSpace="mr-[0.01em]"
               />
-              <AnimatedBody text="React, Next.js, TypeScript, Tailwind CSS, Framer Motion, Django, FastAPI, MongoDB, Firebase" />
-              <AnimatedBody text="OpenAI, Gemini, LangChain, CrewAI, Ollama, Streamlit, Tesseract, pdfplumber" />
-              <AnimatedBody text="Vercel, GitHub, Docker, Netlify, Notion, Postman, FlutterFlow" />
+              <AnimatedBody text="React, TypeScript, Next.js, Tailwind CSS, Framer Motion, Django, FastAPI, PyMongo, Node.js" />
+              <AnimatedBody text="Gemini, OpenAI, LangChain, CrewAI, Ollama, Tesseract, pdfplumber, Streamlit, Hugging Face" />
+              <AnimatedBody text="GitHub, Vercel, Docker, Netlify, Notion, Postman, FlutterFlow (beginner)" />
             </div>
 
             <div className="flex flex-col gap-3">
@@ -51,9 +49,9 @@ const About = () => {
                 wordSpace="mr-[0.2em]"
                 charSpace="mr-[0.01em]"
               />
-              <AnimatedBody text="🧠 A SaaS GenAI API layer for interview evaluation" />
-              <AnimatedBody text="📊 GitHub-Notion integration for dev dashboards" />
-              <AnimatedBody text="🎵 A music-powered emotion-tracking AI app" />
+              <AnimatedBody text="Agentic AI SaaS for interview evaluation" />
+              <AnimatedBody text="GitHub–Notion dashboard for developer productivity" />
+              <AnimatedBody text="Emotion-aware AI music assistant powered by real-time mood analysis" />
             </div>
           </div>
         </div>
