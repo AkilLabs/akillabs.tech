@@ -13,38 +13,34 @@ const syne = Syne({
 export const metadata: Metadata = {
   title: "Akillabs",
   description:
-    "Frontend Engineer and Web Designer, currently at Kora. Focused on interfaces and experiences, working remotely from Lagos, Nigeria.",
+    "Full-Stack Developer building scalable AI-powered web experiences. Crafting seamless digital products with React, Django, and cutting-edge GenAI tools — currently working remotely from India.",
   generator: "Next.js",
   applicationName: "Akil A",
   keywords: [
-    "freelance",
-    "developer",
-    "freelance developer",
-    "frontend",
+    "full-stack developer",
+    "genai developer",
     "react",
-    "frontend developer",
-    "frontend engineer",
-    "creative",
-    "creative developer",
-    "creative engineer",
-    "tech",
-    "nigeria",
-    "software",
-    "software developer",
+    "django",
+    "ai engineer",
+    "frontend",
+    "backend",
     "portfolio",
-    "frontend developer portfolio",
-    "creative developer portfolio",
+    "ai portfolio",
+    "creative developer",
+    "scalable web apps",
+    "india",
+    "akillabs",
   ],
   colorScheme: "dark",
   openGraph: {
     title: "AkilLabs",
     description:
-      "Frontend Engineer and Web Designer, currently at Kora. Focused on interfaces and experiences, working remotely from Lagos, Nigeria.",
+      "Full-Stack Developer building scalable AI-powered web experiences. Crafting seamless digital products with React, Django, and cutting-edge GenAI tools — currently working remotely from India.",
     url: "https://www.AkilLabs.me/",
     siteName: "www.AkilLabs.me",
     images: [
       {
-        url: "https://www.akillabs.tech/Darkmode%20Favicon.svg",
+        url: "https://www.akillabs.tech/Darkmode%20Favicon.png",
         width: 1200,
         height: 630,
         alt: "AkilLabs",
@@ -57,11 +53,11 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "AkilLabs",
     description:
-      "Frontend Engineer and Web Designer, currently at Kora. Focused on interfaces and experiences, working remotely from Lagos, Nigeria.",
+      "Full-Stack Developer building scalable AI-powered web experiences. Crafting seamless digital products with React, Django, and cutting-edge GenAI tools — currently working remotely from India.",
     creator: "Akil A",
     creatorId: "1243720976552144897",
     images: [
-      "https://www.akillabs.tech/Darkmode%20Favicon.svg",
+      "https://www.akillabs.tech/Darkmode%20Favicon.png",
     ],
   },
   robots: {
@@ -83,6 +79,7 @@ export const metadata: Metadata = {
   },
   category: "technology",
 };
+
 
 type RootLayoutProps = {
   children: ReactNode;
