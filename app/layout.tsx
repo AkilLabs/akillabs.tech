@@ -44,7 +44,7 @@ export const metadata: Metadata = {
     siteName: "www.AkilLabs.me",
     images: [
       {
-        url: "/Darkmode Favicon.svg",
+        url: "https://www.akillabs.tech/Darkmode%20Favicon.svg",
         width: 1200,
         height: 630,
         alt: "AkilLabs",
@@ -61,7 +61,7 @@ export const metadata: Metadata = {
     creator: "Akil A",
     creatorId: "1243720976552144897",
     images: [
-      "/Darkmode Favicon.svg",
+      "https://www.akillabs.tech/Darkmode%20Favicon.svg",
     ],
   },
   robots: {
