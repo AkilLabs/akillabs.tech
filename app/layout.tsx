@@ -77,6 +77,10 @@ export const metadata: Metadata = {
       "max-snippet": -1,
     },
   },
+  icons: {
+    icon: '/Darkmode Favicon.svg',
+    shortcut: '/Darkmode Favicon.svg',
+  },
   category: "technology",
 };
 
