@@ -43,11 +43,10 @@ Start the server
 npm run dev
 ```
 
+
 ## Contributing & Usage
 
-This project is open source. You are welcome to use the code or parts of the code for your own site. Please modify the theme and components to make it your own. Do not present any of the projects featured on this site as your own—the content is personal and represents real projects I’ve worked on.
-
-If you use the site’s design largely unmodified, please credit me as the designer.
+This project is provided for personal reference and inspiration only. The code, design, and content represent real projects I’ve worked on and may not be used, copied, reproduced, distributed, or modified for any purpose, including commercial, educational, or personal projects, without explicit written permission from AkilLabs. Unauthorized use is strictly prohibited.
 
 ## License
 
