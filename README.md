@@ -50,3 +50,5 @@ This project is open source. You are welcome to use the code or parts of the cod
 If you use the site’s design largely unmodified, please credit me as the designer.
 
 ## License
+
+This portfolio is provided for personal reference and inspiration only. All rights are reserved by AkilLabs. You may not use, copy, reproduce, distribute, or modify any part of this portfolio or its content for any purpose, including commercial, educational, or personal projects, without explicit written permission from AkilLabs. Unauthorized use is strictly prohibited.
